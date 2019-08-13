@@ -1,0 +1,352 @@
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol {
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+a {
+	text-decoration: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	display: flex;
+	flex-flow: column;
+}
+h1 {
+  color: rgba(0, 0, 6, 0.98);
+  font-family: "Slabo 27px", serif;
+  font-size: 7em;
+	font-weight: bold;
+	text-shadow: 3px 5px 7px rgba(255, 255, 255, 0.95);
+}
+h2 {
+  font-family: "Lato", sans-serif;
+  font-size: 2em;
+}
+h3 {
+	font-family: "Lato", sans-serif;
+  font-size: 1.7em;
+}
+ul {
+  list-style-type: none;
+}
+nav {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	background-color: black;
+	color: rgba(255, 255, 255, 0.8);
+	position: fixed;
+	width: 100%;
+	height: 10%;
+	z-index: 5;
+}
+ul {
+	display: flex;
+	justify-content: flex-start;
+}
+li {
+	font-size: 1.7em;
+	padding-left: 20px;
+	margin-top: 15px;
+}
+.address {
+	margin-top: 14px;
+	margin-right: 15px;
+	font-style: italic;
+}
+.main {
+	display: flex;
+	flex-flow: column;
+	margin-top: 67px;
+	text-align: center;
+	justify-content: center;
+}
+.one {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+	height: 600px;
+	width: 100%;
+	background-image: url(https://media.eggs.ca/assets/RecipePhotos/_resampled/FillWyIxMjgwIiwiNzIwIl0/Fluffy-Pancakes-New-CMS.jpg);
+	background-size: cover;
+	margin-bottom: 20px;
+}
+.two {
+	display: flex;
+	margin-top: 45px;
+}
+.two figure {
+	flex: 1 1 200px;
+}
+.photo {
+	width: 280px;
+	height: 400px;
+	border: 2px solid rgba(0, 0, 0, 0.8);
+	border-radius: 3px;
+	z-index: 1;
+
+}
+figcaption {
+	font-family: "Lato", sans-serif;
+  font-size: 1.6em;
+}
+.new {
+	width: 80px;
+	height: 80px;
+	z-index: 3;
+	position: relative;
+	right: 112px;
+	bottom: 447px;
+}
+h4 {
+	font-family: "Slabo 27px", serif;
+  font-size: 7em;
+	color: #008080;
+	margin-top: 50px;
+	letter-spacing: 5px;
+}
+.three {
+	background-image: url(https://static.designmynight.com/uploads/2018/08/Hotel-Cafe-Royal-620x330-optimised.jpg);
+	background-size: cover;
+	height: 300px;
+	color: #008080;
+	padding-top: 80px;
+	margin-top: 25px;
+	text-shadow: 3px 4px 5px white;
+}
+.contact {
+	background-color: black;
+	color: rgba(255, 255, 255, 0.8);
+	padding-top: 20px;
+}
+.sign {
+	display: flex;
+	font-size: 1.8em;
+	justify-content: center;
+	padding-bottom: 30px;
+	padding-top: 40px;
+}
+input {
+	width: 250px;
+}
+label {
+	padding-right: 20px;
+}
+a:hover {
+	color: fuchsia;
+}
+a:active {
+	color: cyan;
+}
+.button {
+	border: 3px solid black;
+	border-radius: 5px;
+	background: linear-gradient(75deg, #000000, #001a33,#000000);
+	color: white;
+	padding: 7px 5px;
+	width: 10%;
+	position: relative;
+	left: 602px;
+	margin-top: 15px;
+	font-size: 1.8em;
+}
+
+
+
+
+
+.single {
+	display: flex;
+	flex-flow: wrap;
+}
+.single figure {
+	flex: 1 1 300px;
+}
+.presentation {
+	padding-top: 30px;
+	font-style: italic;
+}
+.choise {
+	width: 280px;
+	height: 350px;
+	border-radius: 5px;
+}
+.price {
+	margin-top: 20px;
+	margin-bottom: 35px;
+	padding-top: 15px;
+	padding-bottom: 25px;
+}
+.donut {
+	background-color: rgba(191, 0, 255, 0.3);
+}
+.price:hover {
+	color: rgba(255, 0, 191, 0.9);
+	transform: scale(.95);
+}
+
+
+
+
+
+.production {
+	display: flex;
+}
+.shop {
+	width: 700px;
+	height: 480px;
+}
+.restaurant {
+	display: flex;
+	flex-flow: column;
+}
+.cosily {
+	margin-top: 15px;
+	padding-bottom: 20px;
+	color: rgba(0, 0, 0, 0.6);
+}
+.cosilydeskription {
+	padding-right: 10px;
+	padding-left: 10px;
+	color: rgba(0, 0, 0, 0.9);
+}
+.location {
+	background-image: url(https://www.discoverwalks.com/blog/wp-content/uploads/2018/08/paris-streets-big.jpg);
+	background-size: cover;
+	display: flex;
+	height: 500px;
+	justify-content: center;
+}
+.street {
+	margin-top: 170px;
+	font-size: 3em;
+	color: rgba(255, 255, 255, 0.8);
+	text-shadow: 3px 4px 8px black;
+}
+.passion {
+	font-size: 2.2em;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.last {
+	display: flex;
+}
+.end {
+	width: 400px;
+	height: 300px;
+}
+.last figure {
+	flex: 1 1 400px;
+}
+
+@media screen and (max-width: 738px) {
+	nav {
+		flex-flow: column;
+		font-size: .7em;
+		justify-content: center;
+		padding-bottom: 40px;
+		padding-top: 20px;
+
+	}
+	.address {
+		margin-left: 20px;
+	}
+	ul {
+		display: flex;
+		flex-flow: column;
+		margin-left: -23px;
+		font-size: 1.5em;
+	}
+	.one {
+		font-size: .5em;
+	}
+	.loved {
+		font-size: 1.2em;
+		margin-left: 15px;
+	}
+
+
+
+
+	.two {
+		flex-flow: column;
+	}
+
+
+
+.three {
+flex-flow: column;
+justify-content: center;
+}
+.begin {
+	margin-left: 5px;
+}
+h4 {
+	font-size: 4em;
+}
+
+
+
+.sign {
+	flex-flow: column;
+}
+
+input {
+	font-size: .8em;
+	margin-left: 55px;
+	margin-top: 20px;
+	padding-top: 10px;
+}
+label {
+	margin-left: 15px;
+}
+
+
+/*for menu*/
+.presentation {
+	margin-top: 50px;
+}
+
+
+/*for about*/
+.production {
+	flex-flow: column;
+	margin-top: 40px;
+}
+.cosily {
+	font-size: 1.5em;
+}
+.last {
+	flex-flow: column;
+}
+.cosilydeskription {
+	font-size: 1.3em;
+	padding-bottom: 10px;
+}
+.mood {
+	margin-bottom: 80px;
+}
+}
